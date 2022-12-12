@@ -1,9 +1,7 @@
 #include <iostream>
 #include "lib.h"
 
-
 using namespace std;
-float a []={}; int d=0;
 float massimo ( float a [], int d) {
     cin >> d;
     if (d>0){
