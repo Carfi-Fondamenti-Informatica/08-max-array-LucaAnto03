@@ -1,2 +1,2 @@
 
-float massimo ( float a [], int d);
+float massimo ( float b [], int d);
