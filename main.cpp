@@ -2,9 +2,13 @@
 #include "lib.h"
 
 using namespace std;
-float a []={}; int d=0;
-
 int main() {
-cout << massimo (a, d);
+    int d=0;
+    cin >> d;
+    float a[d];
+    for (int i=0; i<d; i++) {
+        cin >> a[i];
+        }
+    cout << massimo (a, d);
     return 0;
 }
